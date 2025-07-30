@@ -4,7 +4,7 @@ import os
 import uuid
 
 app = Flask(__name__)
-app.secret_key = "your_secret_key_here"  # Needed for flashing messages
+
 
 @app.route('/')
 def index():
