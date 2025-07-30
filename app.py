@@ -4,7 +4,7 @@ import os
 import uuid
 
 app = Flask(__name__)
-
+app.secret_key = "darkdash00"
 
 @app.route('/')
 def index():
